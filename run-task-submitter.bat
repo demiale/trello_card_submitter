@@ -1,0 +1,1 @@
+java -classpath <path_to_folder_with_compiled_classes>;<path_to_jackson-core-2.10.3.jar>;<path_to_jackson-databind-2.10.3.jar>;"path_to_jackson-annotations-2.10.3.jar>;"path_to_commons-csv-1.8.jar> card.submitter.TrelloCardInserter <path_to_tasks_file>
