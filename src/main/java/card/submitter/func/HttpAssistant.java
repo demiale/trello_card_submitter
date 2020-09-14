@@ -23,7 +23,7 @@ import static card.submitter.func.TasksFileParser.getRequestParamsForTasks;
 public class HttpAssistant {
 
 
-    public static void submitCardsFromFileAsync(Path fileName) {
+    public static void submitCardsFromFile(Path fileName) {
 
         System.out.println("Submitting tasks from " + fileName.toString());
 
