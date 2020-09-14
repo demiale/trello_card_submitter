@@ -13,7 +13,7 @@ public class TrelloCardInserter {
         if (args.length > 0) {
             Path fileName = Paths.get(args[0]);
             if (Files.exists(fileName) && Files.isReadable(fileName)) {
-                HttpAssistant.submitCardsFromFileAsync(fileName);
+                HttpAssistant.submitCardsFromFile(fileName);
             } else {
                 System.out.println("Files does not exist or cannot be read");
             }
